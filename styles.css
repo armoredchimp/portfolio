@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.top-bar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  gap: 7rem;
+  list-style: none;
+  justify-content: center;
+  padding: 1rem 0;
+  background-color: #1f1d1d91;
+  margin: 0;
+}
+
+.top-bar li {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.top-bar li:hover,
+.top-bar li:active {
+  color: rgb(128, 128, 123);
+}
+
+.content {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 3.5rem;
+}
+
+.landing-section {
+  text-align: center;
+}
+
+.landing-section h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.landing-section h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.landing-section h3 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 7rem;
+}
+.landing-parg {
+  font-weight: 300;
+  line-height: 2rem;
+  margin-bottom: 7rem;
+}
+
+.tech-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 7rem;
+}
+
+.resume-line {
+  font-weight: 400;
+}
+.download-resume {
+  color: #07b99b;
+  cursor: pointer;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.download-resume:hover,
+.download-resume:active {
+  color: #e6dddd;
+}
