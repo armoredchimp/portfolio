@@ -99,6 +99,7 @@ body {
   padding: 1rem;
   /* margin: 2rem; */
   border-radius: 0.2rem;
+  margin-bottom: 4.5rem;
 }
 .project-header {
   margin: 0;
@@ -115,8 +116,10 @@ body {
   gap: 4.5rem;
   flex: 1;
 }
-.image-desc {
-  /* padding-bottom: 3rem; */
+.image-desc,
+.image-desc2,
+.image-desc3 {
+  font-weight: 300;
 }
 .project-image {
   /* flex-basis: 33.3%; */
@@ -188,4 +191,49 @@ body {
   text-decoration: none;
   border-radius: 0.2rem;
   box-shadow: 0.2rem 0.2rem 0.2rem black;
+}
+
+.image-box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  flex: 1;
+}
+.globecorp2 {
+  transform: translateX(-0.3rem);
+}
+.globecorp-parg {
+  text-align: left;
+  line-height: 2.2rem;
+}
+.sl2 {
+  margin-top: 7rem;
+}
+.ac2 {
+  margin-top: 4.5rem;
+}
+
+.project-image-small {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.project-image-small img {
+  width: 70%;
+  height: 70%;
+  border-radius: 0.2rem;
+}
+.image-box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  flex: 1;
+}
+.sl3 {
+  margin-top: 3rem;
 }
