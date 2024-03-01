@@ -90,10 +90,9 @@ body {
 .project-section {
   /* transform: translateX(7.5rem); */
   max-width: 80rem;
-  margin-top: 20rem;
+  margin-top: 15rem;
 }
 .projects-header {
-  margin-top: 9rem;
   font-size: 3rem;
   font-weight: 400;
   margin-bottom: 4.5rem;
@@ -249,5 +248,38 @@ body {
   flex: 1;
 }
 .sl3 {
+  margin-top: 3rem;
+}
+.certs-section {
+  /* transform: translateX(7.5rem); */
+  max-width: 80rem;
+  margin-top: 15rem;
+}
+.certs-header {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 4.5rem;
+}
+.cert-cont {
+  background-color: #1d1b1bb6;
+  display: flex;
+  overflow: hidden;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  margin-bottom: 4.5rem;
+}
+.cert-content {
+  padding: 3rem;
+  flex: 2;
+  margin-left: 2rem;
+}
+.cert-header {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+  border-bottom: 0.2rem solid #4a91d8;
+}
+.cert-parg {
   margin-top: 3rem;
 }
