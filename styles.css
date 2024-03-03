@@ -22,6 +22,7 @@ body {
 .top-bar li {
   cursor: pointer;
   transition: color 0.3s;
+  color: #e7e4ee;
 }
 
 .top-bar li:hover,
@@ -29,6 +30,15 @@ body {
   color: rgb(128, 128, 123);
 }
 
+.top-git {
+  text-decoration: none;
+  color: #e7e4ee;
+  transition: color 0.3s;
+}
+.top-git:hover,
+.top-git:active {
+  color: rgb(128, 128, 123);
+}
 .content {
   max-width: 120rem;
   margin: 0 auto;
@@ -318,7 +328,7 @@ body {
   margin-left: 0.6rem;
   height: 1rem;
   width: 1rem;
-  transform: translateY(1.2rem);
+  transform: translateY(1.4rem);
 }
 .copy-icon:hover {
   color: green;
